@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.live.proyectoluzdigital"
+       name="proyectoluzdigital"
+       version="1.1.1"
+       provider-name="proyectoluzdigital">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>ProyectoLuz Digital- Muchas Gracias Al Creador Del Addons  Esto Es Solo Una Modificación</summary>
+    <description>proyectoluzdigital ofrecido para usted si tiene comentarios o sugerencias para este complemente, no dude en participar en el foro http://proyectoluzdigital.com/[CR]Plugin Modificado Por ELCHISPAARTISTA, con la Colaboracion de Rpblazquez,Jose35,Axaima,LopezCid,Taberita,H</description>
+
+        
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
